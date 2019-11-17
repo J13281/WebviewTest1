@@ -14,7 +14,19 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZEb-Xi-ivT" customClass="NavigationWebview" customModule="WebviewTest1" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ZEb-Xi-ivT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3Os-HD-3Su"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZEb-Xi-ivT" secondAttribute="trailing" id="5AT-n8-c1p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZEb-Xi-ivT" secondAttribute="bottom" id="APB-7Z-HzY"/>
+                            <constraint firstItem="ZEb-Xi-ivT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="tGt-Of-Y5b"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

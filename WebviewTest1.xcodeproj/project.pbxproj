@@ -14,6 +14,7 @@
 		0ABC17142381F12000C036D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABC17132381F12000C036D0 /* Assets.xcassets */; };
 		0ABC17172381F12000C036D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABC17152381F12000C036D0 /* LaunchScreen.storyboard */; };
 		0ABC17222381F12100C036D0 /* WebviewTest1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC17212381F12100C036D0 /* WebviewTest1Tests.swift */; };
+		0ABC172D2382093000C036D0 /* NavigationWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC172C2382093000C036D0 /* NavigationWebview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		0ABC171D2381F12100C036D0 /* WebviewTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebviewTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABC17212381F12100C036D0 /* WebviewTest1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewTest1Tests.swift; sourceTree = "<group>"; };
 		0ABC17232381F12100C036D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABC172C2382093000C036D0 /* NavigationWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWebview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				0ABC17132381F12000C036D0 /* Assets.xcassets */,
 				0ABC17152381F12000C036D0 /* LaunchScreen.storyboard */,
 				0ABC17182381F12000C036D0 /* Info.plist */,
+				0ABC172C2382093000C036D0 /* NavigationWebview.swift */,
 			);
 			path = WebviewTest1;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				0ABC170F2381F11F00C036D0 /* ViewController.swift in Sources */,
 				0ABC170B2381F11F00C036D0 /* AppDelegate.swift in Sources */,
 				0ABC170D2381F11F00C036D0 /* SceneDelegate.swift in Sources */,
+				0ABC172D2382093000C036D0 /* NavigationWebview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
